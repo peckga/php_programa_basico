@@ -1,0 +1,21 @@
+
+/*
+#navegacionprincipal{background-color:gray;color: white; padding: 5px; margin-bottom: 15px}
+li{display: inline; padding: 17px}
+.nav li ul{display:none;position: absolute}
+*/
+
+/*
+ul{list-style-type: none}
+ul li{float: left; margin: 10px}
+ul li a{display: block; color: white; background-color: gray; padding: 20px;width: 120px;text-align: center;text-decoration: none}
+ul li a:hover{color: black;background-color: red}
+*/
+
+.nav{list-style-type: none;margin: 0;padding: 0}
+.nav ul{position: absolute;list-style: none; visibility: hidden;margin: 0px;padding: 0px}
+.nav li{float: left;position: relative; border-right: 2px solid white}
+.nav li a {display: block; color: white; background-color: gray; padding: 20px;width: 220px;text-align: center;text-decoration: none;position: relative}
+.nav li a:hover{color: black;background-color: red}
+.nav li:hover ul{visibility: visible;opacity: 1;line-height: 1px}
+.nav li ul li a{background-color:orange;font-size: small}
